@@ -1,6 +1,6 @@
 import allure
 from allure_commons.types import Severity
-from model.IssuePage import IssuePage
+from page.IssuePage import IssuePage
 
 
 @allure.tag("Github")
