@@ -3,7 +3,7 @@ from selene import by, have
 import allure
 
 
-class Issue_page:
+class IssuePage:
     @allure.step('Открыть страницу {page}')
     def open_page(self, page):
         browser.open(page)
